@@ -1,0 +1,136 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+:root {
+    --main-font: "Inter", sans-serif;
+    --header-font: "InstrumentSerif-Regular", serif;
+}
+
+@font-face {
+    font-family: InstrumentSerif-Regular;
+    src: url(InstrumentSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: InstrumentSerif-Italic;
+    src: url(InstrumentSerif-Italic.ttf);
+}
+
+html {
+    background-color: orangered;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--header-font);
+    font-weight: 300;
+    color: white;
+}
+
+p {
+    font-family: var(--main-font);
+    color: white;
+}
+
+a {
+    color: blue;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 50pt;
+    color: white;
+    font-family: var(--header-font);
+    font-size: 16pt;
+    padding: 16px;
+    width: 100%;
+}
+
+.page-nav-button {
+    color: white;
+}
+
+.faded {
+    opacity: 50%;
+}
+
+button:hover {
+    background-color: orangered;
+    color: white;
+}
+
+.highlight {
+    background-color: orangered;
+    color: white;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    font-family: "InstrumentSerif-Italic", serif;
+}
+
+.header-full {
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.header-full a {
+    text-decoration: none;
+    color: white;
+}
+
+.orange {
+    background-color: orangered;
+}
+
+.orange h1, .orange h2, .orange h3, .orange p, .orange a {
+    color: white;
+} 
+
+.orange button {
+    background-color: black;
+}
+
+.orange button:hover {
+    background-color: white;
+    color: black;
+}
+
+.list {
+    width: 100%;
+}
+
+table {
+    color: white;
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+img {
+    width: 100%;
+}
